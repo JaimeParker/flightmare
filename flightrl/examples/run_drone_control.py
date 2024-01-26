@@ -62,7 +62,7 @@ def main():
     # set random seed
     configure_random_seed(args.seed, env=env)
 
-    #
+    # Training
     if args.train:
         # save the configuration and other files
         rsg_root = os.path.dirname(os.path.abspath(__file__))
